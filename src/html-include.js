@@ -1,4 +1,4 @@
-function includeFile(){
+(function(){
 	var all, i, elem, filePath, xhttp;
 	all = document.getElementsByTagName("*");
 	for(i = 0; i < all.length; i++){
@@ -23,4 +23,4 @@ function includeFile(){
 			return;
 		}
 	}
-};
+})();
